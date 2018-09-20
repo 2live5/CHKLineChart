@@ -156,7 +156,7 @@ open class CHKLineChartView: UIView {
     
     /// MARK: - 常量
     let kMinRange = 13       //最小缩放范围
-    let kMaxRange = 133     //最大缩放范围
+    open var kMaxRange = 133     //最大缩放范围
     let kPerInterval = 4    //缩放的每段间隔
     open let kYAxisLabelWidth: CGFloat = 46        //默认宽度
     open let kXAxisHegiht: CGFloat = 16        //默认X坐标的高度
